@@ -1,0 +1,144 @@
+/* Stylesheet, (c)2005 Red2Green Plc. */
+
+/* Globals  -------------------------------------------------------------------------- */
+
+html 	{	margin: 0;
+			padding: 0;
+	}
+
+body 	{	font: 80% Verdana, Arial, Helvetica, sans-serif;
+		margin: 0;
+		padding: 0;
+		background: #bbbbbb; 
+		color: black;
+	}
+
+/* Headings */
+
+h1 	{	font-size: 300%;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		color: #FFFFFF;
+		text-align: center;
+		font-style: italic;
+		margin: 0 0 0 0;
+	}
+	
+h2 	{	font-size: 150%;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		color: #373B93;
+		text-align: center;
+		margin: 0 0 0 0;
+	}
+	
+.phone	{	font-family: Verdana, Arial, Helvetica, sans-serif;
+		color: #999999;
+		text-align: center;
+		}
+
+hr 	{	border: 1;
+		color:#dddddd; 
+		height:1px;
+	}
+
+
+p 	{	line-height: 1.5; 
+		margin: 0.5em 0 1em; 
+	}
+
+.linky	{	font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 110%;
+		color: #000000;
+		text-align: center;
+		}
+
+li	{
+	line-height: 1.3;}
+
+a 		{text-decoration: none;}
+a:link 		{color: #373B93;}
+a:visited 	{color: #373B93;}
+
+.style1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 30px;
+}
+
+/* Forms */
+
+label, label2, input {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	display: block;
+	width: 270px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+label {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: right;
+	width: 90px;
+	padding-right: 21px;
+}
+
+
+
+textarea {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding-right: 20px;
+	overflow: auto;
+}
+
+
+br {
+	clear: left;
+}
+
+
+/* DIVS  -------------------------------------------------------------------------- */
+div#yellowbar { 	
+		margin-top:5px;
+		padding:0px;
+		background: #FFF348; 
+		border: 1px solid #000000; 
+		width=600px;
+	}
+div#entry { 	
+
+		margin-left:240px; 
+		margin-top:5px; 
+		margin-right: 5px;
+		background: #373B93; 
+		padding:12px;
+		border: 1px solid #000066; 
+		width:500px;
+	}
+div#entry2 { 	
+
+		margin-left:240px; 
+		margin-right: 5px;
+		background: #FFFFFF; 
+		padding:12px;
+		border: 1px solid #000066; 
+		width:500px;
+	}
+	
+div#sidebar {	float: left;
+		text-align: left;
+		width:220px; 
+		margin: 7px; 
+		margin-top:15px
+	}
+
+	
+/* alignment from page */
+
+#one { position:absolute; top:0; left:50%; margin-left:-395px; width:790px; text-align:center; background:#cccccc; }
+
+
+#two { float:left; width:50%; }
+
+#two div { margin-right:395px; text-align:right; overflow:hidden; }
+
+#three { float:left; width:50%; }
+
+#three div { margin-left:395px; overflow:hidden; }
